@@ -21,7 +21,7 @@ jobs:
           node-version: 16
 
       - name: Install js
-        run: npm install @eslint/js
+        run: npm update -g
 
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
